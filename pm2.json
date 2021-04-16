@@ -1,0 +1,17 @@
+{
+  "name": "Balancer",
+  "script": "index.js",
+  "ignore_watch": ["node_modules", "public/images", "logs"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "env_development": {
+    "NODE_ENV": "development"
+  },
+  "env_staging": {
+    "NODE_ENV": "staging"
+  },
+  "env_production": {
+    "NODE_ENV": "production"
+  }
+}
